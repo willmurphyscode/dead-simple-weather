@@ -1,7 +1,13 @@
-<h1>Predictor#display</h1>
-<p>Find me in app/views/predictor/display.html.erb</p>
+<h1>Dead Simple Weather Descriptions</h1>
 
-<h3>Yo! Prediction is:</h3>
+<h3><%="It's #{@article} #{@adjective} day in #{@location}" %></h3>
 <p>
-  <%= "For #{@zip} predicted #{@temp} degrees F." %>
+
+</p>
+
+<p>
+  <%= "For #{@location} predicted #{@temp} degrees F and humidity is #{@humidity}% and wind speed is #{@wind_speed} mph" %>
+</p>
+<p>
+  <%= "It #{@any_rain ? 'might rain' : 'probably won\'t rain'} today." %>
 </p>
