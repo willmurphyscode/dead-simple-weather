@@ -1,0 +1,32 @@
+{
+  "dt": 1493478000,
+  "main": {
+    "temp": 83.93,
+    "temp_min": 83.32,
+    "temp_max": 83.93,
+    "pressure": 1025.66,
+    "sea_level": 1032.1,
+    "grnd_level": 1025.66,
+    "humidity": 49,
+    "temp_kf": 0.33
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "clouds": {
+    "all": 12
+  },
+  "wind": {
+    "speed": 8.03,
+    "deg": 243.503
+  },
+  "sys": {
+    "pod": "d"
+  },
+  "dt_txt": "2017-04-29 15:00:00"
+}

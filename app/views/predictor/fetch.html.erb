@@ -1,0 +1,9 @@
+<h1>Predictor#fetch</h1>
+<p>Find me in app/views/predictor/fetch.html.erb</p>
+
+<%= form_with url: predictor_display_url  do |form| %>
+    <%= form.label 'City comma region' %>
+    <%= form.text_field :city_comma_region %>
+    <%= form.button 'Submit' %>
+<% end %>
+

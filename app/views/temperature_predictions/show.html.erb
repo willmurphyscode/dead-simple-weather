@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @temperature_prediction.zip %>
+</p>
+
+<p>
+  <strong>Temp:</strong>
+  <%= @temperature_prediction.temp %>
+</p>
+
+<p>
+  <strong>Date covered:</strong>
+  <%= @temperature_prediction.date_covered %>
+</p>
+
+<p>
+  <strong>Date issued:</strong>
+  <%= @temperature_prediction.date_issued %>
+</p>
+
+<%= link_to 'Edit', edit_temperature_prediction_path(@temperature_prediction) %> |
+<%= link_to 'Back', temperature_predictions_path %>

@@ -1,0 +1,2 @@
+class TemperaturePrediction < ApplicationRecord
+end

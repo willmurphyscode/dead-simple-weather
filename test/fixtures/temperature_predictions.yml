@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  zip: MyString
+  temp: MyString
+  date_covered: 2017-04-29
+  date_issued: 2017-04-29
+
+two:
+  zip: MyString
+  temp: MyString
+  date_covered: 2017-04-29
+  date_issued: 2017-04-29

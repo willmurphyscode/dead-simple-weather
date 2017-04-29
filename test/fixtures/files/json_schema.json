@@ -1,0 +1,168 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "city": {
+            "id": "/properties/city",
+            "properties": {
+                "coord": {
+                    "id": "/properties/city/properties/coord",
+                    "properties": {
+                        "lat": {
+                            "id": "/properties/city/properties/coord/properties/lat",
+                            "type": "number"
+                        },
+                        "lon": {
+                            "id": "/properties/city/properties/coord/properties/lon",
+                            "type": "number"
+                        }
+                    },
+                    "type": "object"
+                },
+                "country": {
+                    "id": "/properties/city/properties/country",
+                    "type": "string"
+                },
+                "id": {
+                    "id": "/properties/city/properties/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "/properties/city/properties/name",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "cnt": {
+            "id": "/properties/cnt",
+            "type": "integer"
+        },
+        "cod": {
+            "id": "/properties/cod",
+            "type": "string"
+        },
+        "list": {
+            "id": "/properties/list",
+            "items": {
+                "id": "/properties/list/items",
+                "properties": {
+                    "clouds": {
+                        "id": "/properties/list/items/properties/clouds",
+                        "properties": {
+                            "all": {
+                                "id": "/properties/list/items/properties/clouds/properties/all",
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "dt": {
+                        "id": "/properties/list/items/properties/dt",
+                        "type": "integer"
+                    },
+                    "dt_txt": {
+                        "id": "/properties/list/items/properties/dt_txt",
+                        "type": "string"
+                    },
+                    "main": {
+                        "id": "/properties/list/items/properties/main",
+                        "properties": {
+                            "grnd_level": {
+                                "id": "/properties/list/items/properties/main/properties/grnd_level",
+                                "type": "number"
+                            },
+                            "humidity": {
+                                "id": "/properties/list/items/properties/main/properties/humidity",
+                                "type": "integer"
+                            },
+                            "pressure": {
+                                "id": "/properties/list/items/properties/main/properties/pressure",
+                                "type": "number"
+                            },
+                            "sea_level": {
+                                "id": "/properties/list/items/properties/main/properties/sea_level",
+                                "type": "number"
+                            },
+                            "temp": {
+                                "id": "/properties/list/items/properties/main/properties/temp",
+                                "type": "number"
+                            },
+                            "temp_kf": {
+                                "id": "/properties/list/items/properties/main/properties/temp_kf",
+                                "type": "number"
+                            },
+                            "temp_max": {
+                                "id": "/properties/list/items/properties/main/properties/temp_max",
+                                "type": "number"
+                            },
+                            "temp_min": {
+                                "id": "/properties/list/items/properties/main/properties/temp_min",
+                                "type": "number"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "sys": {
+                        "id": "/properties/list/items/properties/sys",
+                        "properties": {
+                            "pod": {
+                                "id": "/properties/list/items/properties/sys/properties/pod",
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "weather": {
+                        "id": "/properties/list/items/properties/weather",
+                        "items": {
+                            "id": "/properties/list/items/properties/weather/items",
+                            "properties": {
+                                "description": {
+                                    "id": "/properties/list/items/properties/weather/items/properties/description",
+                                    "type": "string"
+                                },
+                                "icon": {
+                                    "id": "/properties/list/items/properties/weather/items/properties/icon",
+                                    "type": "string"
+                                },
+                                "id": {
+                                    "id": "/properties/list/items/properties/weather/items/properties/id",
+                                    "type": "integer"
+                                },
+                                "main": {
+                                    "id": "/properties/list/items/properties/weather/items/properties/main",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "type": "array"
+                    },
+                    "wind": {
+                        "id": "/properties/list/items/properties/wind",
+                        "properties": {
+                            "deg": {
+                                "id": "/properties/list/items/properties/wind/properties/deg",
+                                "type": "number"
+                            },
+                            "speed": {
+                                "id": "/properties/list/items/properties/wind/properties/speed",
+                                "type": "number"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "message": {
+            "id": "/properties/message",
+            "type": "number"
+        }
+    },
+    "type": "object"
+}
