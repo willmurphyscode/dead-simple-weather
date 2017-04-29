@@ -15,6 +15,7 @@ class DataToSentenceMapper
     return 'humid' if humid? && !hot? && !chilly?
     return 'damp and chilly' if humid? && chilly?
     return 'cool' if !hot? && !humid? && !chilly?
+    return 'windy' if windy?
     'strange'
   end
 

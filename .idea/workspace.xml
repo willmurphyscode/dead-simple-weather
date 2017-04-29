@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f770921d-145d-4d89-a009-e53d1b809e40" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/temperature_predictions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/temperature_predictions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/temperature_predictions_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/temperature_predictions_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/temperature_prediction.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/_temperature_prediction.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/temperature_predictions/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20170429143344_create_temperature_predictions.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/temperature_predictions_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/temperature_predictions.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/temperature_prediction_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/system/temperature_predictions_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/predictor_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/predictor_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/response_parser.rb" afterPath="$PROJECT_DIR$/app/models/response_parser.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/predictor/display.html.erb" afterPath="$PROJECT_DIR$/app/views/predictor/display.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/response_parser_test.rb" afterPath="$PROJECT_DIR$/test/models/response_parser_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" afterPath="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" afterPath="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -77,8 +56,18 @@
       <file leaf-file-name="display.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/predictor/display.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fetch.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/predictor/fetch.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -94,26 +83,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_to_sentence_mapper.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_to_sentence_mapper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="json_schema.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/files/json_schema.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!block;n#city#0;n#!!block;n#properties#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#cnt#0;n#!!block;n#properties#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#cod#0;n#!!block;n#properties#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +183,6 @@
         <option value="$PROJECT_DIR$/app/views/temperature_predictions/index.html.erb" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
         <option value="$PROJECT_DIR$/app/commands/fetch_temperature_by_zip_command.rb" />
-        <option value="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" />
         <option value="$PROJECT_DIR$/app/models/reponse_parser.rb" />
         <option value="$PROJECT_DIR$/test/command/fetch_temperature_by_zip_command_test.rb" />
         <option value="$PROJECT_DIR$/test/controllers/predictor_controller_test.rb" />
@@ -220,6 +194,7 @@
         <option value="$PROJECT_DIR$/test/models/data_to_sentence_mapper_test.rb" />
         <option value="$PROJECT_DIR$/app/views/predictor/display.html.erb" />
         <option value="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" />
+        <option value="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" />
       </list>
     </option>
   </component>
@@ -935,7 +910,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493474614603</updated>
-      <workItem from="1493474617316" duration="12069000" />
+      <workItem from="1493474617316" duration="12258000" />
     </task>
     <servers />
   </component>
@@ -957,13 +932,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12069000" />
+    <option name="totallyTimeSpent" value="12258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954597" sideWeight="0.502442" order="-1" side_tool="true" content_ui="tabs" />
@@ -1070,14 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/predictor/fetch.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1241,18 +1208,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/predictor/display.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/predictor/display.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/predictor/fetch.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
           <folding />
         </state>
       </provider>
