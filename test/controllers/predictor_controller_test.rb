@@ -7,7 +7,7 @@ class PredictorControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get display" do
-    get predictor_display_url
+    post predictor_display_url, params: { city_comma_region: 'Alexandria, VA' }
     assert_response :success
   end
 
