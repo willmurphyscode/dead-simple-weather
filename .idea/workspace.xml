@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f770921d-145d-4d89-a009-e53d1b809e40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" afterPath="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" afterPath="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/humane-weather.iml" afterPath="$PROJECT_DIR$/.idea/humane-weather.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -57,17 +59,50 @@
         <entry file="file://$PROJECT_DIR$/app/views/predictor/display.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetch.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fetch.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/predictor/fetch.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="90" lean-forward="false" selection-start-line="2" selection-start-column="90" selection-end-line="2" selection-end-column="90" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,64 +122,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather_pred_datum.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/files/weather_pred_datum.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="open_weather_response.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/files/open_weather_response.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="527" column="20" lean-forward="false" selection-start-line="527" selection-start-column="20" selection-end-line="527" selection-end-column="20" />
-              <folding>
-                <element signature="e#10821#11482#0" expanded="false" />
-                <element signature="e#11488#12135#0" expanded="false" />
-                <element signature="e#12141#12809#0" expanded="false" />
-                <element signature="e#12815#13492#0" expanded="false" />
-                <element signature="e#13498#14162#0" expanded="false" />
-                <element signature="e#14168#14835#0" expanded="false" />
-                <element signature="e#14841#15508#0" expanded="false" />
-                <element signature="e#15514#16177#0" expanded="false" />
-                <element signature="e#16183#16833#0" expanded="false" />
-                <element signature="e#16839#17483#0" expanded="false" />
-                <element signature="e#17489#18130#0" expanded="false" />
-                <element signature="e#17769#17908#0" expanded="false" />
-                <element signature="e#18136#18776#0" expanded="false" />
-                <element signature="e#18782#19422#0" expanded="false" />
-                <element signature="e#19428#20066#0" expanded="false" />
-                <element signature="e#20072#20701#0" expanded="false" />
-                <element signature="e#20707#21347#0" expanded="false" />
-                <element signature="e#21353#21993#0" expanded="false" />
-                <element signature="e#21999#22635#0" expanded="false" />
-                <element signature="e#22641#23281#0" expanded="false" />
-                <element signature="e#22681#22902#0" expanded="false" />
-                <element signature="e#22921#23060#0" expanded="false" />
-                <element signature="e#23287#23930#0" expanded="false" />
-                <element signature="e#23936#24575#0" expanded="false" />
-                <element signature="e#24581#25230#0" expanded="false" />
-                <element signature="e#25236#25876#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="response_parser_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/response_parser_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -165,6 +143,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>coffee</find>
+      <find>sql</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +154,6 @@
       <list>
         <option value="$PROJECT_DIR$/test/models/temperature_prediction_test.rb" />
         <option value="$PROJECT_DIR$/test/controllers/temperature_predictions_controller_test.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/fixtures/files/json_schema.txt" />
         <option value="$PROJECT_DIR$/test/fixtures/files/open_weather_response.json" />
         <option value="$PROJECT_DIR$/test/fixtures/files/weather_pred_datum.json" />
@@ -195,6 +173,9 @@
         <option value="$PROJECT_DIR$/app/views/predictor/display.html.erb" />
         <option value="$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb" />
         <option value="$PROJECT_DIR$/app/views/predictor/fetch.html.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -910,7 +891,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493474614603</updated>
-      <workItem from="1493474617316" duration="12258000" />
+      <workItem from="1493474617316" duration="12738000" />
     </task>
     <servers />
   </component>
@@ -932,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12258000" />
+    <option name="totallyTimeSpent" value="12738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -991,14 +972,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/files/json_schema.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -1211,7 +1184,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/data_to_sentence_mapper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1219,7 +1192,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/predictor/display.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1228,6 +1201,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="90" lean-forward="false" selection-start-line="2" selection-start-column="90" selection-end-line="2" selection-end-column="90" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
