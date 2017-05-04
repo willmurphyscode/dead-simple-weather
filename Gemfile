@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'open-weather', '~> 0.12.0'
+gem 'open-weather', '~> 0.12.0', git: 'https://github.com/willmurphyscode/ruby_open_weather_map'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.0.rc2'
 # Use sqlite3 as the database for Active Record
