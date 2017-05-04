@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/willmurphyscode/ruby_open_weather_map
+  revision: 246ef81c46e39c83843c03a955100267dedcbb0b
+  specs:
+    open-weather (0.12.0)
+      json (~> 1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,8 +89,6 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
-    open-weather (0.12.0)
-      json (~> 1)
     public_suffix (2.0.5)
     puma (3.8.2)
     rack (2.0.1)
@@ -175,7 +180,7 @@ DEPENDENCIES
   capybara (~> 2.13.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  open-weather (~> 0.12.0)
+  open-weather (~> 0.12.0)!
   puma (~> 3.7)
   rails (~> 5.1.0.rc2)
   sass-rails (~> 5.0)
