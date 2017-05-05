@@ -1,9 +1,15 @@
-<h1>Check the Weather!</h1>
+
+<div class="card">
+  <div class="card-title"><h1>Check the Weather!</h1></div>
 <p>Please type "City, Region" like "Chicago, IL" or "Moscow, Russia" or type a 5-digit US zip code.</p>
 
+<div class="form-autocomplete">
+
 <%= form_with url: predictor_display_url  do |form| %>
-    <%= form.label 'City comma region' %>
-    <%= form.text_field :city_comma_region %>
+    <%= form.label 'Location:' %>
+    <%= form.text_field :city_comma_region, placeholder: 'ZIP or City', class: 'form-input' %>
     <%= form.button 'Submit' %>
 <% end %>
 
+</div>
+</div>
