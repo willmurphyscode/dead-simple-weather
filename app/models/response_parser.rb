@@ -34,4 +34,19 @@ class ResponseParser
     /rain/i =~ node.dig('weather', 0, 'main') || /rain/i =~ node.dig('weather', 0, 'description') ||
         node.keys.include?('rain')
   end
+
+  def heavy_rain?
+    if @response['list']
+      @response['list'].any? do |node|
+        heavy_rain_node?(node)
+      end
+    else
+      false
+    end
+  end
+
+  def heavy_rain_node?(node)
+    /heavy intensity rain/i =~ node.dig('weather', 0, 'description')
+  end
+
 end
