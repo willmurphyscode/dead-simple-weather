@@ -24,7 +24,7 @@ class PredictorController < ApplicationController
     @humidity = @parser.predicted_humidity
     @wind_speed = @parser.predicted_wind_speed
     @any_rain = @parser.any_rain?
-    @adjective = DataToSentenceMapper.new(temp: @temp, humidity: @humidity, wind: @wind_speed, rain: @any_rain).adjective
+    @adjective = DataToSentenceMapper.new(@parser).adjective
     @article = %w(a e i o u).include?(@adjective[0]) ? 'an' : 'a'
   end
   

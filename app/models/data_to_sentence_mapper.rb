@@ -1,10 +1,11 @@
 class DataToSentenceMapper
 
-  def initialize(temp:, humidity:, wind:, rain:)
-    @temp = temp
-    @humidity = humidity
-    @wind = wind
-    @rain = rain
+  def initialize(response_parser)
+    @parser = response_parser
+    @temp = @parser.predicted_temp
+    @humidity = @parser.predicted_humidity
+    @wind_speed = @parser.predicted_wind_speed
+    @any_rain = @parser.any_rain?
   end
 
   def adjective
@@ -36,6 +37,10 @@ class DataToSentenceMapper
   end
 
   def rain?
-    @rain
+    @any_rain
+  end
+
+  def heavy_rain?
+    @parser.heavy_rain?
   end
 end
