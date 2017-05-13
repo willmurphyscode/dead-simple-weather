@@ -14,8 +14,9 @@ class FetchTemperatureByZipCommand
 
   class << self
     def execute(city_comma_region)
-      return OpenWeather::Forecast.city(city_comma_region, default_options) unless ZIP_REGEX.match? city_comma_region
-      OpenWeather::Forecast.zip(city_comma_region, default_options)
+      region = city_comma_region.strip
+      return OpenWeather::Forecast.city(city_comma_region, default_options) unless ZIP_REGEX.match? region
+      OpenWeather::Forecast.zip(region, default_options)
     end
 
     def default_options
