@@ -11,4 +11,9 @@ class PredictorControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test 'white space should not break post' do
+    post predictor_display_url, params: { city_comma_region: '22314 '}
+    assert_response :success
+  end
+
 end
